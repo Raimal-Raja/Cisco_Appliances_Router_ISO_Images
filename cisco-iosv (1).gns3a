@@ -1,0 +1,164 @@
+{
+    "appliance_id": "3bf492b6-5717-4257-9bfd-b34617c6f133",
+    "name": "Cisco IOSv",
+    "category": "router",
+    "description": "Cisco Virtual IOS allows user to run IOS on a standard computer.",
+    "vendor_name": "Cisco",
+    "vendor_url": "http://www.cisco.com/",
+    "product_name": "IOSv",
+    "product_url": "http://virl.cisco.com/",
+    "registry_version": 4,
+    "status": "stable",
+    "maintainer": "GNS3 Team",
+    "maintainer_email": "developers@gns3.net",
+    "usage": "There is no default password and enable password. There is no default configuration present.",
+    "port_name_format": "Gi0/{0}",
+    "qemu": {
+        "adapter_type": "e1000",
+        "adapters": 4,
+        "ram": 512,
+        "hda_disk_interface": "virtio",
+        "hdb_disk_interface": "virtio",
+        "arch": "x86_64",
+        "console_type": "telnet",
+        "kvm": "require"
+    },
+    "images": [
+        {
+            "filename": "IOSv_startup_config.img",
+            "version": "1",
+            "md5sum": "bc605651c4688276f81fd59dcf5cc786",
+            "filesize": 1048576,
+            "download_url": "https://sourceforge.net/projects/gns-3/files",
+            "direct_download_url": "https://sourceforge.net/projects/gns-3/files/Qemu%20Appliances/IOSv_startup_config.img/download"
+        },
+        {
+            "filename": "vios-adventerprisek9-m.spa.159-3.m6.qcow2",
+            "version": "15.9(3)M6",
+            "md5sum": "49a6977977263b2774bebc56e4e678ff",
+            "filesize": 57309696,
+            "download_url": "https://learningnetworkstore.cisco.com/myaccount"
+        },
+        {
+            "filename": "vios-adventerprisek9-m.spa.159-3.m4.qcow2",
+            "version": "15.9(3)M4",
+            "md5sum": "355b13ab821e64e2939fd7008d6304d7",
+            "filesize": 57297920,
+            "download_url": "https://learningnetworkstore.cisco.com/myaccount"
+        },
+        {
+            "filename": "vios-adventerprisek9-m.spa.159-3.m3.qcow2",
+            "version": "15.9(3)M3",
+            "md5sum": "12893843af18e4c62f13d07266755653",
+            "filesize": 57296384,
+            "download_url": "https://learningnetworkstore.cisco.com/myaccount"
+        },
+        {
+            "filename": "vios-adventerprisek9-m.spa.159-3.m2.qcow2",
+            "version": "15.9(3)M2",
+            "md5sum": "a19e998bc3086825c751d125af722329",
+            "filesize": 57308672,
+            "download_url": "https://learningnetworkstore.cisco.com/myaccount"
+        },
+        {
+            "filename": "vios-adventerprisek9-m.spa.158-3.m2.qcow2",
+            "version": "15.8(3)M2",
+            "md5sum": "40e3d25b5b0cb13d639fcd2cf18e9965",
+            "filesize": 57129984,
+            "download_url": "https://learningnetworkstore.cisco.com/myaccount"
+        },
+        {
+            "filename": "vios-adventerprisek9-m.vmdk.SPA.157-3.M3",
+            "version": "15.7(3)M3",
+            "md5sum": "37c148ffa14a82f418a6e9c2b049fafe",
+            "filesize": 134021120,
+            "download_url": "https://learningnetworkstore.cisco.com/myaccount"
+        },
+        {
+            "filename": "vios-adventerprisek9-m.vmdk.SPA.156-2.T",
+            "version": "15.6(2)T",
+            "md5sum": "83707e3cc93646da58ee6563a68002b5",
+            "filesize": 128450560,
+            "download_url": "https://learningnetworkstore.cisco.com/myaccount"
+        },
+        {
+            "filename": "vios-adventerprisek9-m.vmdk.SPA.156-1.T",
+            "version": "15.6(1)T",
+            "md5sum": "e7cb1bbd0c59280dd946feefa68fa270",
+            "filesize": 128122880,
+            "download_url": "https://learningnetworkstore.cisco.com/myaccount"
+        },
+        {
+            "filename": "vios-adventerprisek9-m.vmdk.SPA.155-3.M",
+            "version": "15.5(3)M",
+            "md5sum": "79f613ac3b179d5a64520730925130b2",
+            "filesize": 127926272,
+            "download_url": "https://learningnetworkstore.cisco.com/myaccount"
+        }
+    ],
+    "versions": [
+        {
+            "name": "15.9(3)M6",
+            "images": {
+                "hda_disk_image": "vios-adventerprisek9-m.spa.159-3.m6.qcow2",
+                "hdb_disk_image": "IOSv_startup_config.img"
+            }
+        },
+        {
+            "name": "15.9(3)M4",
+            "images": {
+                "hda_disk_image": "vios-adventerprisek9-m.spa.159-3.m4.qcow2",
+                "hdb_disk_image": "IOSv_startup_config.img"
+            }
+        },
+        {
+            "name": "15.9(3)M3",
+            "images": {
+                "hda_disk_image": "vios-adventerprisek9-m.spa.159-3.m3.qcow2",
+                "hdb_disk_image": "IOSv_startup_config.img"
+            }
+        },
+        {
+            "name": "15.9(3)M2",
+            "images": {
+                "hda_disk_image": "vios-adventerprisek9-m.spa.159-3.m2.qcow2",
+                "hdb_disk_image": "IOSv_startup_config.img"
+            }
+        },
+        {
+            "name": "15.8(3)M2",
+            "images": {
+                "hda_disk_image": "vios-adventerprisek9-m.spa.158-3.m2.qcow2",
+                "hdb_disk_image": "IOSv_startup_config.img"
+            }
+        },
+        {
+            "name": "15.7(3)M3",
+            "images": {
+                "hda_disk_image": "vios-adventerprisek9-m.vmdk.SPA.157-3.M3",
+                "hdb_disk_image": "IOSv_startup_config.img"
+            }
+        },
+        {
+            "name": "15.6(2)T",
+            "images": {
+                "hda_disk_image": "vios-adventerprisek9-m.vmdk.SPA.156-2.T",
+                "hdb_disk_image": "IOSv_startup_config.img"
+            }
+        },
+        {
+            "name": "15.6(1)T",
+            "images": {
+                "hda_disk_image": "vios-adventerprisek9-m.vmdk.SPA.156-1.T",
+                "hdb_disk_image": "IOSv_startup_config.img"
+            }
+        },
+        {
+            "name": "15.5(3)M",
+            "images": {
+                "hda_disk_image": "vios-adventerprisek9-m.vmdk.SPA.155-3.M",
+                "hdb_disk_image": "IOSv_startup_config.img"
+            }
+        }
+    ]
+}

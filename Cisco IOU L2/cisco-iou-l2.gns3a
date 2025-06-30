@@ -1,0 +1,60 @@
+{
+    "appliance_id": "9593db48-558a-4914-bb78-a20605f39c65",
+    "name": "Cisco IOU L2",
+    "category": "multilayer_switch",
+    "description": "Cisco IOS on UNIX Layer 2 image.",
+    "vendor_name": "Cisco",
+    "vendor_url": "http://www.cisco.com",
+    "product_name": "Cisco IOU L2",
+    "registry_version": 4,
+    "status": "experimental",
+    "maintainer": "GNS3 Team",
+    "maintainer_email": "developers@gns3.net",
+    "iou": {
+        "ethernet_adapters": 4,
+        "serial_adapters": 0,
+        "nvram": 128,
+        "ram": 256,
+        "startup_config": "iou_l2_base_startup-config.txt"
+    },
+    "images": [
+        {
+            "filename": "i86bi-linux-l2-ipbasek9-15.1g.bin",
+            "version": "15.1g",
+            "md5sum": "0b8b9e14ca99b68c654e44c4296857ba",
+            "filesize": 62137336
+        },
+        {
+            "filename": "i86bi-linux-l2-adventerprisek9-15.1a.bin",
+            "version": "15.1a",
+            "md5sum": "9549a20a7391fb849da32caa77a0d254",
+            "filesize": 72726092
+        },
+        {
+            "filename": "i86bi-linux-l2-adventerprisek9-15.2d.bin",
+            "version": "15.2d",
+            "md5sum": "f16db44433beb3e8c828db5ddad1de8a",
+            "filesize": 105036380
+        }
+    ],
+    "versions": [
+        {
+            "name": "15.1g",
+            "images": {
+                "image": "i86bi-linux-l2-ipbasek9-15.1g.bin"
+            }
+        },
+        {
+            "name": "15.1a",
+            "images": {
+                "image": "i86bi-linux-l2-adventerprisek9-15.1a.bin"
+            }
+        },
+        {
+            "name": "15.2d",
+            "images": {
+                "image": "i86bi-linux-l2-adventerprisek9-15.2d.bin"
+            }
+        }
+    ]
+}

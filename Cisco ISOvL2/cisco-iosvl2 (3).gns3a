@@ -1,0 +1,95 @@
+{
+    "appliance_id": "4368f802-ddec-4863-adbd-a36a6d83cd4c",
+    "name": "Cisco IOSvL2",
+    "category": "multilayer_switch",
+    "description": "Cisco Virtual IOS L2 allows user to run a IOS switching image on a standard computer.",
+    "vendor_name": "Cisco",
+    "vendor_url": "http://www.cisco.com/",
+    "product_name": "IOSvL2",
+    "product_url": "http://virl.cisco.com/",
+    "registry_version": 4,
+    "status": "stable",
+    "maintainer": "GNS3 Team",
+    "maintainer_email": "developers@gns3.net",
+    "usage": "There is no default password and enable password. There is no default configuration present.",
+    "port_name_format": "Gi{1}/{0}",
+    "port_segment_size": 4,
+    "qemu": {
+        "adapter_type": "e1000",
+        "adapters": 16,
+        "ram": 768,
+        "hda_disk_interface": "virtio",
+        "arch": "x86_64",
+        "console_type": "telnet",
+        "kvm": "require"
+    },
+    "images": [
+        {
+            "filename": "vios_l2-adventerprisek9-m.ssa.high_iron_20200929.qcow2",
+            "version": "15.2(20200924:215240)",
+            "md5sum": "99ecab32de12410c533e6abd4e9710aa",
+            "filesize": 90409984,
+            "download_url": "https://learningnetworkstore.cisco.com/myaccount"
+        },
+        {
+            "filename": "vios_l2-adventerprisek9-m.ssa.high_iron_20190423.qcow2",
+            "version": "15.2(6.0.81)E",
+            "md5sum": "71cacb678f98a106f99e889b97b34686",
+            "filesize": 44950016,
+            "download_url": "https://learningnetworkstore.cisco.com/myaccount"
+        },
+        {
+            "filename": "vios_l2-adventerprisek9-m.SSA.high_iron_20180619.qcow2",
+            "version": "15.2.1",
+            "md5sum": "14b981002e40b660f2d7400401e04c14",
+            "filesize": 44938752,
+            "download_url": "https://learningnetworkstore.cisco.com/myaccount"
+        },
+        {
+            "filename": "vios_l2-adventerprisek9-m.03.2017.qcow2",
+            "version": "15.2(20170321:233949)",
+            "md5sum": "8f14b50083a14688dec2fc791706bb3e",
+            "filesize": 41157632,
+            "download_url": "https://learningnetworkstore.cisco.com/myaccount"
+        },
+        {
+            "filename": "vios_l2-adventerprisek9-m.vmdk.SSA.152-4.0.55.E",
+            "version": "15.2(4.0.55)E",
+            "md5sum": "1a3a21f5697cae64bb930895b986d71e",
+            "filesize": 96862208,
+            "download_url": "https://learningnetworkstore.cisco.com/myaccount"
+        }
+    ],
+    "versions": [
+        {
+            "name": "15.2(20200924:215240)",
+            "images": {
+                "hda_disk_image": "vios_l2-adventerprisek9-m.ssa.high_iron_20200929.qcow2"
+            }
+        },
+        {
+            "name": "15.2(6.0.81)E",
+            "images": {
+                "hda_disk_image": "vios_l2-adventerprisek9-m.ssa.high_iron_20190423.qcow2"
+            }
+        },
+        {
+            "name": "15.2.1",
+            "images": {
+                "hda_disk_image": "vios_l2-adventerprisek9-m.SSA.high_iron_20180619.qcow2"
+            }
+        },
+        {
+            "name": "15.2(20170321:233949)",
+            "images": {
+                "hda_disk_image": "vios_l2-adventerprisek9-m.03.2017.qcow2"
+            }
+        },
+        {
+            "name": "15.2(4.0.55)E",
+            "images": {
+                "hda_disk_image": "vios_l2-adventerprisek9-m.vmdk.SSA.152-4.0.55.E"
+            }
+        }
+    ]
+}
