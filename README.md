@@ -2,9 +2,9 @@
 
 Archive of network appliance definitions and router image files for networking lab experiments.
 
-## Repository guide
+## Setup and repository reference
 
-### Contents
+### Project structure
 
 - [Cisco 3660](Cisco%203660)
 - [Cisco 3660.zip](Cisco%203660.zip)
@@ -14,7 +14,6 @@ Archive of network appliance definitions and router image files for networking l
 - [Cisco Switches](Cisco%20Switches)
 - [IOSv_startup_config.img](IOSv_startup_config.img)
 - [Linux](Linux)
-- [README.md](README.md)
 - [c1700-adventerprisek9-mz.124-8.bin](c1700-adventerprisek9-mz.124-8.bin)
 - [c2600-i-mz.123-9.bin](c2600-i-mz.123-9.bin)
 - [c2691-entservicesk9-mz.124-13b.bin](c2691-entservicesk9-mz.124-13b.bin)
@@ -40,7 +39,11 @@ Router images were not booted. Appliance files and saved images are lab resource
 
 ### Validation
 
-Reviewed on 2026-10-08. Repository structure and documentation were reviewed. No application runtime, training job, or platform-specific build was executed.
+Audit: 2026-10-08. Repository structure, setup instructions and description were reviewed. Syntax checks do not establish full runtime correctness. External APIs, live scraping, GUI interaction, notebook training and production deployment were not comprehensively exercised.
+
+### Repository description
+
+The short GitHub description is provided in [REPOSITORY_DESCRIPTION.md](REPOSITORY_DESCRIPTION.md).
 
 ### Contributions
 
